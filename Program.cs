@@ -45,7 +45,7 @@
             foreach (Animal animal in animals)
             {
                 Console.WriteLine(animal);
-                animal.CanFly
+                animal.CanFly(animal);
             }
 
 
